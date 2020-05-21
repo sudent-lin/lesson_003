@@ -11,8 +11,6 @@ user_input = input("Введите, пожалуйста, номер месяц�
 month = int(user_input)
 print('Вы ввели', month)
 
-# TODO здесь ваш код
-
 if month == 1:
     print('31 days in January')
 elif month == 2:
