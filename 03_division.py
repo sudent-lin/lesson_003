@@ -11,3 +11,9 @@
 a, b = 179, 37
 
 # TODO здесь ваш код
+count = 0
+c = a
+while c / b > 1:
+    count = count + 1
+    c = c - b
+print('Целочисленное деление %d на %d дает %d ' % (a, b, count))
