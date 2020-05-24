@@ -10,7 +10,6 @@
 
 a, b = 179, 37
 
-# TODO здесь ваш код
 count = 0
 c = a
 while c / b > 1:
