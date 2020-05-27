@@ -1,11 +1,13 @@
 # -*- coding: utf-8 -*-
 
-import siple_draw as sd
+import simple_draw as sd
 
 sd.resolution = (1200, 600)
 
 # Нарисовать пузырек - три вложенных окружностей с шагом 5 пикселей
 # TODO здесь ваш код
+center_position = [200, 200, ]
+sd.circle(center_position, radius=50, color=sd.COLOR_GREEN, width=2)
 
 # Написать функцию рисования пузырька, принммающую 2 (или более) параметра: точка рисовании и шаг
 # TODO здесь ваш код
@@ -20,5 +22,3 @@ sd.resolution = (1200, 600)
 # TODO здесь ваш код
 
 sd.pause()
-
-
