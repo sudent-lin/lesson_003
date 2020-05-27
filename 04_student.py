@@ -10,5 +10,14 @@
 #   Студенту надо попросить ХХХ.ХХ рублей
 
 educational_grant, expenses = 10000, 12000
+months = 1
+increase = 0
+
+while months < 10:
+    increase = increase + (increase + expenses) * .03
+    months = months + 1
+
+print('Студенту надо попросить %.2f рублей'  % increase)
+
 
 # TODO здесь ваш код
