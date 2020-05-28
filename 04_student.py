@@ -17,4 +17,4 @@ while months < 10:
     increase = increase + (increase + expenses) * .03
     months = months + 1
 
-print('Студенту надо попросить %.2f рублей'  % increase)
+print('Студенту надо попросить %.2f рублей' % increase)
